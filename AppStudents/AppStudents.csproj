@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\user\Pictures\DataAcces.cs" Link="DataAcces.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.13.0" />
+    <PackageReference Include="GUILocalizer" Version="1.0.0" />
+    <PackageReference Include="Infragistics.Themes.Office2013.Wpf" Version="1.0.0" />
+    <PackageReference Include="Infragistics.WPF.DataGrids.Excel.Trial" Version="21.1.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="NPOI.Excel" Version="2.1.1" />
+    <PackageReference Include="NuGet.Protocol" Version="5.9.1" />
+    <PackageReference Include="Spread.Services" Version="1.4.0" />
+    <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="19.1.0.69" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+  </ItemGroup>
+
+</Project>
